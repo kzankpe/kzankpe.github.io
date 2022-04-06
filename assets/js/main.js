@@ -83,3 +83,13 @@ let swiper = new Swiper('.certifications__container',{
         clickable: true,
     },
 });
+
+/*SendEmail*/
+
+function sendEmail(){
+    var subject= document.getElementById("subject").value;
+    var message= document.getElementById("body").value;
+    document.location.href= "mailto:me@kzankpe.com?subject="
+    + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(message);
+}
