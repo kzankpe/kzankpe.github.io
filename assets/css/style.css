@@ -443,3 +443,36 @@ footer{
         width: 100%;
     }
 }
+
+@media (max-width: 912px) {
+    .bg-img img{
+        width: 65%;
+        height: 56vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bg-img img{
+        width: 60%;
+        height: 56vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+@media (max-height: 600px) {
+    .bg-img img{
+        width: 60%;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
